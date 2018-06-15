@@ -1,0 +1,114 @@
+#head-pic
+{
+  width: 10%;
+  height: 23px;
+}
+.header
+{
+  padding: 20px;
+}
+body
+{
+  background-color: #3C2843;
+  font-family: sans-serif;
+}
+a
+{
+  color:#ffcd19;
+  text-decoration: none;
+  padding:0px 10px 10px 0px;
+}
+.links
+{
+  margin-left: 70%;
+ font-size: 12px;
+  float:right;
+  padding: 5px;
+}
+.form
+{
+  margin-left: 30%;
+  margin-right: 30%;
+  color: White;
+  padding: 10px;
+}
+.form h2
+{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+label
+{
+  font-size: 15px;
+}
+input[type=submit]
+{
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top:2%;
+  background-color: #ffcd19;
+  color:White;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ffcd19;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+input[type=text]
+{
+  
+  margin:10px 10px 10px 0px;
+  width:70%;
+  background-color:#3c0947; 
+  border: 1px solid White;
+  height: 25px;
+  color: White;
+}
+select
+{
+  width:34%;
+  margin:10px 10px 10px 0px;
+  background-color: #3c0947;
+  color: White;
+  height: 30px;
+    border: 1px solid White;
+}
+.footer
+{
+  width: 100%;
+  height: 5%;
+  background-color: black;
+  margin-top: 5.2%;
+  margin-bottom: 0;
+}
+#proj
+{
+  float:right;
+  width: 10%;
+  height: 23px;
+}
+#img1
+{
+  margin-left: 12px;
+}
+#language
+{
+  margin-right: 113px;
+}
+.footer img
+{
+  width:30px;
+  height:30px;
+
+  margin:10px 1px 0px 2px;
+}
+textarea
+{
+  background-color: #3c0947;
+    border: 1px solid White;
+    margin: 10px 10px 10px 0px;
+    color: White;
+}

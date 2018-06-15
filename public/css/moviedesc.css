@@ -1,0 +1,184 @@
+#head-pic
+{
+  width: 12%;
+  height: 28px;
+}
+.header
+{
+	margin-bottom: 3%;
+	margin-top: 3%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+body
+{
+  background-color: #3C2843;
+  font-family: Helvetica,sans-serif;
+  color: White;
+}
+a
+{
+  color:#ffcd19;
+  text-decoration: none;
+  padding:0px 10px 10px 0px;
+}
+h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-left: 50px;
+	padding-bottom: 20px;
+}
+
+.links
+{
+  margin-left: 70%;
+ font-size: 12px;
+  float:right;
+}
+.allmovies
+{
+	color: White;
+	font-size: 30px;
+	padding: 23px 5px 30px 28px;
+
+}
+.allmovies a
+{
+	color: White;
+}
+.allmovies img
+{
+	width: 30px;
+	height: 25px;
+	padding-right: 7px;
+}
+h1
+{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: normal;
+	padding: 23px 23px 23px 28px;
+	font-family: Helvetica;
+}
+.stars
+{
+	padding-left: 28px;
+}
+.stars img
+{
+	width: 15px;
+	height: 15px;
+}
+.poster-img img
+{
+	width: 100%;
+	padding: 23px 0px 23px 0px;
+	height: 700px;
+
+}
+.parallax
+{
+	width: 100%;
+	padding: 23px 0px 23px 0px;
+	height: 700px;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}	
+.year-name
+{
+	padding: 23px 23px 30px 28px;
+}
+.year-name span
+{
+	padding: 5px;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.plot
+{
+	float: left;
+	color:#ffcd19;
+	font-size: 20px;
+	font-weight: normal;
+	width: 50%;
+	padding-left: 30px;
+}
+
+.cast 
+{
+	float: right;
+	color:White;
+	font-size: 20px;
+	width: 15%;
+	padding-right: 10%;
+
+}
+.cast p
+{
+	font-size: 15px;
+	color: White;
+	line-height: 110%;
+word-spacing: 2px;
+
+}
+.plot p
+{
+color: White;
+font-size: 15px;
+padding-top: 13px;
+line-height: 110%;
+word-spacing: 2px;
+
+}
+li
+{
+	padding: 5px 5px 0px 12px;
+	font-size: 15px;
+}
+.cast h3
+{
+color: #ffcd19;
+font-weight: normal;
+padding: 13px;
+}
+section
+{
+	margin-bottom: 25%;
+}
+
+.footer
+{
+	margin-top: 10%;
+  width: 100%;
+  height: 5%;
+  clear: both;
+  background-color: black;
+
+}
+#proj
+{
+  float:right;
+  width: 10%;
+  height: 23px;
+}
+#img1
+{
+  margin-left: 12px;
+}
+#language
+{
+	margin-right: 113px;
+}
+.footer img
+{
+  width:30px;
+  height:30px;
+
+  margin:10px 1px 0px 2px;
+}

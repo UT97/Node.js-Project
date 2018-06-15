@@ -1,0 +1,62 @@
+<html>
+<!DOCTYPEhtml>
+<head>
+  <title>Add Movie</title>
+  
+  <link rel = "stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/addmov.css">
+
+</head>
+<body>
+  <div class="header">
+    <img src="./images/projector-logo.png" id="head-pic">
+    <div class="links">
+    <a href="/index.html">HOME</a>
+    <a href="projector-addmov.html">ADD MOVIE</a>
+  </div>
+  </div>
+  <div class="form">
+  <h2>Add a New Movie</h2>
+  <form id="addMovie" onsubmit="event.preventDefault();addMovie();">
+  <div><label for="MovieName">Movie Name</label></div>
+  <div>  <input type="text" name="name" required></div>
+  <div><label for="ReleaseYear">Release Year</label></div>
+  <div>  <input type="text" name="releaseYear" required></div>
+  <div><label for="Language" id="language">Language</label>
+
+      <label for="Rating" id="rating">Rating</label></div>
+  <div><select name="language">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="Tamil">Tamil</option>
+  </select>
+
+  <select name="rating">
+    <option value="5">5</option>
+    <option value="4">4</option>
+    <option value="3">3</option>
+    <option value="2">2</option>
+    <option value="1">1</option>
+  </select></div>
+  <div><label for="ThumbnailURL">Thumbnail URL</label></div>
+    <div><input type="text" name="thumbnailURL"></div>
+  <div><label for="Plot">Plot</label></div>
+  <div><textarea rows="4" cols="49" name="plot"></textarea></div>
+  <div><label for="PosterURL">Poster URL</label></div>
+  <div>  <input type="text" name="posterUrl"></div>
+  <div><label for="Cast">Cast</label></div>
+  <div>  <textarea rows="4" cols="49" name="cast"></textarea></div>
+  <div><input type="submit" value="SAVE" name="submit"></div>
+</form>
+</div>
+<div class="footer">
+  <img src="./images/facebook.png" id="img1">
+  <img src="./images/twitter.png">
+  <img src="./images/instagram.png">
+  <img src="./images/projector-logo.png" id="proj">
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/addMovie.js"></script>
+</body>
+</html>
